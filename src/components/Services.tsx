@@ -15,7 +15,7 @@ const Services = () => {
         variants={fadeInVariants}
         initial="initial"
         whileInView="animate"
-        viewport={{ once: true }}
+        viewport={{ once: false }}
         className="py-4 bg-primary-9"
       >
         {/* services */}

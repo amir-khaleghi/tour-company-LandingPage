@@ -32,7 +32,7 @@ const Hero = () => {
         initial="initial"
         whileInView="animate"
         viewport={{
-          once: true,
+          once: false,
         }}
         className="absolute flex flex-col items-center justify-center w-full gap-2 py-4 text-white bottom-20 md:bottom-10 backdrop-blur-md backdrop-contrast-200 backdrop-opacity-50"
       >

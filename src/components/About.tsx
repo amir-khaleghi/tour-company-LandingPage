@@ -20,7 +20,7 @@ const About = () => {
           initial="initial"
           whileInView="animate"
           viewport={{
-            once: true,
+            once: false,
           }}
           className="relative"
         >
@@ -42,7 +42,7 @@ const About = () => {
           initial="initial"
           whileInView="animate"
           viewport={{
-            once: true,
+            once: false,
           }}
           className="flex flex-col gap-4 pt-4 text-center md:text-left"
         >
