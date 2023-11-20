@@ -25,7 +25,7 @@ export const moveInLeft = {
     rotate: 0,
 
     transition: {
-      delay: 0.3,
+      delay: 0.7,
       duration: 1,
     },
   },
