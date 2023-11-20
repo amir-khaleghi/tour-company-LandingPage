@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Html _________________________________________________ */
+html {
+  scroll-behavior: smooth;
+}
+/* Text _________________________________________________ */
+h1 {
+  @apply text-4xl font-bold tracking-widest;
+}
+h2 {
+  @apply text-3xl font-bold tracking-widest;
+}
+h3 {
+  @apply text-xl font-bold tracking-widest;
+}
+
+/* Buttons ______________________________________________ */
+
+.btn-primary {
+  @apply p-2 font-serif tracking-widest duration-300 transform rounded-lg bg-primary-6 hover:scale-110 hover:rotate-2 hover:bg-white hover:text-primary-4;
+}
+.btn-secondary {
+  @apply p-2 font-sans tracking-widest duration-300 transform rounded-lg bg-primary-3 hover:scale-105  hover:bg-black text-white uppercase text-lg md:w-full w-full;
+}
+
+/* Sevice _______________________________________________ */
+.service {
+  @apply p-2 bg-black rounded-lg text-8xl text-primary-6;
+}
+
+.service-content {
+  @apply flex flex-col items-center h-full gap-2 text-center;
+}
+
+/* Section ______________________________________________ */
+.section {
+  @apply pb-2 mb-20 text-4xl font-bold tracking-widest border-t-2 border-b-2 border-primary-7;
+}
+
+section {
+  scroll-margin-top: 4rem;
+}
+
+/* ■■■■■■■■■■■■■■■■■■■■■■■■■ Css ■■■■■■■■■■■■■■■■■■■■■■■■ */
