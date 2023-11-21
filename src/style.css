@@ -4,8 +4,9 @@
 
 /* Html _________________________________________________ */
 html {
-  scroll-behavior: smooth;
+  @apply scroll-smooth overflow-x-hidden;
 }
+
 /* Text _________________________________________________ */
 h1 {
   @apply text-4xl font-bold tracking-widest;

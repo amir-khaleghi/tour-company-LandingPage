@@ -2,20 +2,7 @@ import Card from './Card';
 import { tours } from './Data';
 import { motion } from 'framer-motion';
 
-const fadeInVariants = {
-  initial: {
-    opacity: 0,
-    y: 100,
-  },
-  animate: (index: number) => ({
-    opacity: 1,
-    y: 0,
-    transition: {
-      delay: 0.1 * index,
-      duration: 1,
-    },
-  }),
-};
+import { fadeInVariants } from './variants';
 
 const TourList = () => {
   return (

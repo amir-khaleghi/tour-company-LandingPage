@@ -82,9 +82,9 @@ export const navItems = [
 ];
 
 export const icons = [
-  { id: 1, href: 'https://twitter.com', icon: <FaTwitter /> },
-  { id: 2, href: 'https://facebook.com', icon: <FaFacebook /> },
-  { id: 3, href: 'https://instagram.com', icon: <FaInstagram /> },
+  { id: 1, href: 'https://twitter.com', reactIcon: <FaTwitter /> },
+  { id: 2, href: 'https://facebook.com', reactIcon: <FaFacebook /> },
+  { id: 3, href: 'https://instagram.com', reactIcon: <FaInstagram /> },
 ];
 
 export const readmoreText = `Dive into the enchanting tapestry of cultures and landscapes as ourtours unveil the subtle nuances that set each destination apart.

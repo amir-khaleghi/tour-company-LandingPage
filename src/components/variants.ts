@@ -3,14 +3,14 @@ export const fadeInVariants = {
     opacity: 0,
     y: 100,
   },
-  animate: {
+  animate: (index: number) => ({
     opacity: 1,
     y: 0,
     transition: {
-      delay: 0.4,
+      delay: 0.2 * index,
       duration: 1,
     },
-  },
+  }),
 };
 /* Left Move ____________________________________________ */
 export const moveInLeft = {

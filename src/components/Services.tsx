@@ -2,15 +2,18 @@ import { GiReceiveMoney, GiHiking } from 'react-icons/gi';
 import { FaSocks } from 'react-icons/fa';
 import { fadeInVariants } from './variants';
 import { motion } from 'framer-motion';
+import Title from './Title';
 const Services = () => {
   return (
     <section
       id="services"
       className="flex flex-col items-center justify-center py-10 rounded-xl"
     >
-      <div className="section">
-        Our <span className="text-primary-4 ">Services</span>
-      </div>
+      <Title
+        title="OUR"
+        subtitle="SERVICES"
+      />
+
       <motion.div
         variants={fadeInVariants}
         initial="initial"

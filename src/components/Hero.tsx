@@ -1,18 +1,5 @@
 import { motion } from 'framer-motion';
-const fadeInVariants = {
-  initial: {
-    opacity: 0,
-    y: 100,
-  },
-  animate: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      delay: 0.5,
-      duration: 1,
-    },
-  },
-};
+import { fadeInVariants } from './variants';
 
 const Hero = () => {
   return (

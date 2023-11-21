@@ -1,5 +1,3 @@
-import { navItems, icons } from './Data';
-import NavItem from './NavList';
 import Icons from './Icons';
 import HamburgerMenu from './HamburgerMenu';
 import NavList from './NavList';
@@ -26,11 +24,7 @@ const Navbar = () => {
 
           {/* icons */}
           {/* // ──────────────────────────────────────────────────── 🟩 ─ */}
-          <ul className="hidden gap-5 text-2xl md:flex">
-            {icons.map((icon) => {
-              return <Icons {...icon} />;
-            })}
-          </ul>
+          <Icons customClass="hidden" />
         </div>
       </nav>
     </>

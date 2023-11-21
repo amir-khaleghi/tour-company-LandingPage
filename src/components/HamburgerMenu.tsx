@@ -8,7 +8,7 @@ const HamburgerMenu = () => {
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
-    
+
   return (
     <div>
       {isMenuOpen ? (
