@@ -19,7 +19,7 @@ const Services = () => {
         initial="initial"
         whileInView="animate"
         viewport={{ once: false }}
-        className="py-4 bg-primary-9"
+        className="py-4 border-y-4 border-primary-5"
       >
         {/* services */}
         <div className="flex flex-col items-start justify-between gap-10 px-20 md:flex-row">

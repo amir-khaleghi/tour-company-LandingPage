@@ -2,14 +2,14 @@ import { IoMdMap } from 'react-icons/io';
 
 const Card = ({ name, date, img, location, cost, duration, text }) => {
   return (
-    <section className="flex flex-col w-full h-full gap-2 p-4 transition duration-300 transform rounded-lg shadow-lg cursor-pointer bg-slate-200 hover:shadow-2xl hover:scale-105 ">
+    <section className="flex flex-col w-full h-full gap-2 p-4 transition duration-300 transform border rounded-lg shadow-lg cursor-pointer border-slate-100 hover:shadow-2xl hover:scale-105 ">
       <div className="relative ">
         <img
           className="object-cover w-full h-80 "
           src={img}
           alt="tour"
         />
-        <p className="absolute bottom-0 right-0 p-2 text-white rounded-tl-xl bg-primary-4 ">
+        <p className="absolute bottom-0 right-0 p-2 text-white bg-orange-600 rounded-tl-xl ">
           {date}
         </p>
       </div>

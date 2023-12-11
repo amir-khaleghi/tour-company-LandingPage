@@ -29,7 +29,7 @@ h3 {
 
 /* Sevice _______________________________________________ */
 .service {
-  @apply p-2 bg-black rounded-lg text-8xl text-primary-6;
+  @apply p-2 bg-black rounded-lg text-8xl text-white;
 }
 
 .service-content {
